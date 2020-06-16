@@ -36,4 +36,12 @@ if (require.main === module) {
   }
 }
 
+if (num % 2 > 0) {
+  console.log(isOdd(num) === true)
+  return true;
+} else {
+  console.log(isOdd(num) === false);
+  return false;
+}
+
 module.exports = isOdd;

@@ -36,4 +36,12 @@ if (require.main === module) {
   }
 }
 
+if (num % 2 === 0) {
+  console.log(isEven(num) === true);
+  return true;
+} else {
+  console.log(isEven(num) === false);
+  return false;
+}
+
 module.exports = isEven;
